@@ -22,6 +22,7 @@ public class ProductoController {
     }
 
     @PostMapping
+
     public Producto guardar(@RequestBody Producto producto) {
 
         return productoService.guardar(producto);
