@@ -1,0 +1,12 @@
+//este es el archivo del repositorio de productos, en este archivo se van a crear las consultas a la base de datos para la tabla productos, con las anotaciones de Spring Data JPA se le dice a la base de datos como se va a mapear esta clase a la tabla productos, y con las anotaciones de Lombok se le dice al compilador que genere los constructores, getters y setters de esta clase automaticamente, para no tener que escribirlos manualmente.
+
+package com.cyjdetalles.backend.repository;
+
+import com.cyjdetalles.backend.model.Producto;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductoRepository extends JpaRepository<Producto, Long> { //con esta anotacion se le dice a la base de datos que esta clase se va a mapear a una tabla, y el nombre de la tabla es productos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio,
+    // y que se va a usar para hacer consultas a la base de datos,
+    // y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos, y con esta anotacion se le dice a la base de datos que esta clase es un repositorio, y que se va a usar para hacer consultas a la base de datos
+
+}
